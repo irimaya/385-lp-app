@@ -3,6 +3,10 @@
 	height: 100vh;
 }
 
+h1 {
+	letter-spacing: 4px;
+}
+
 .showcase-bottom::after {
 	content: '';
 	position: absolute;
@@ -17,25 +21,23 @@
 	-ms-transform: skewY(5deg);
 }
 
-.showcase {
-	padding-bottom: -80px !important;
-}
-
 .bg-primary,
 .btn-primary {
-	background: #4ad0b8 !important;
+	background: #4ad0b8;
 	border: 0;
 }
 
-h1 {
-	letter-spacing: 4px;
+.bg-primary,
+.btn-primary:hover {
+	background: #4ad0b8;
+	border: 0;
 }
 
 /* Mobile */
 @media (max-width: 768px) {
 	.showcase {
 		height: 100%;
-		padding: 100px 0 !important;
+		padding: 100px 0;
 	}
 	.showcase .col-md-5 img {
 		height: 450px;
